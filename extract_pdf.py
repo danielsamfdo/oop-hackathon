@@ -32,7 +32,7 @@ def sync_extract_report_from_pdf(data_file_name, output_format="markdown", optio
     # bring in deps
 
     parser = LlamaParse(
-        api_key=LLM_MODELS[options['model']]['key'],  # can also be set in your env as LLAMA_CLOUD_API_KEY
+        api_key="llx-iCTDNjEz7VgzLEuRPo9rR2GC4YwmjoDrP9Sr2JnNMzwUrsHD",#LLM_MODELS[options['model']]['key'],  # can also be set in your env as LLAMA_CLOUD_API_KEY
         result_type=output_format  # "markdown" and "text" are available
     )
 

@@ -64,4 +64,4 @@ if __name__=="__main__":
     main()
     response = extract_pdf.sync_extract_report_from_pdf('red_flags.pdf')
     extract_pdf.store_extracted_info(response, 'red_flags.md')
-    # print(response)
+    print(f'Extraction response: {response}')

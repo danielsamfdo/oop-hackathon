@@ -3,7 +3,7 @@ from openai import OpenAI
 
 client = OpenAI(
     # This is the default and can be omitted
-    api_key="",
+    # api_key="",
 )
 def call_openai(prompt='Write a Python function that returns the square of a number'):
     # Call the OpenAI API with the prompt
