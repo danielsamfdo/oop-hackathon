@@ -1,7 +1,7 @@
 REPORT = """
 # MRI Lumbar Spine Report
 
-|PATIENT:|ROOMBA, REGINA|PATIENT ID:|146713|
+|PATIENT:|DOE, DAN|PATIENT ID:|146713|
 |---|---|---|---|
 |DATE OF BIRTH:|1/4/1977| | |
 |REFERRING PHYSICIAN:|BANNER, ROSS, MD| | |
@@ -32,7 +32,7 @@ IMPRESSION:
 2. L5-S1 left paracentral disc herniation with left S1 nerve root sleeve impingement with left lateral recess and foraminal stenosis."""
 
 JAMES_REPORT = """
-|PATIENT:|REGALD, REGINA|PATIENT ID:|1462713|
+|PATIENT:|DOE, DAN|PATIENT ID:|1462713|
 |---|---|---|---|
 |DATE OF BIRTH:|1/4/1967| | |
 |REFERRING PHYSICIAN:|BANNER, ROSS, MD| | |
